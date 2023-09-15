@@ -42,19 +42,19 @@ I have provided a refactored version of the code with some improvements. Please 
 
 ###### Changes in BookingController
 
-Too many line spaces - I have removed that
-Removed unused imports
-Removed unused variables and conditions
-Removed Redundant if else conditions
-In the distanceFeed - data should return so i added a structure
+1. Too many line spaces - I have removed that
+2. Removed unused imports
+3. Removed unused variables and conditions
+4. Removed Redundant if else conditions
+5. In the distanceFeed - data should return so i added a structure
 
 ###### Changes in BookingRepository
 
-Too many line spaces - I have removed that
-Too many else if code - which makes code redundant and hard to read,
-it feels like things that we can easily solve with laravel validation package - they use if else for it
-create a general function to be used
-update few long if else conditions
-Removed commented code if not needed and unused code
-code feels like a mix code of a junior and a senior both - coding pattern of return statement is mix
-removed non-reachable statements
+1. Too many line spaces - I have removed that
+2. Too many else if code - which makes code redundant and hard to read,
+3. it feels like things that we can easily solve with laravel validation package - they use if else for it
+4. create a general function to be used
+5. update few long if else conditions
+6. Removed commented code if not needed and unused code
+7. code feels like a mix code of a junior and a senior both - coding pattern of return statement is mix
+8. removed non-reachable statements
